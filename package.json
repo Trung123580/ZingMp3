@@ -4,8 +4,8 @@
   "description": "music-player-server",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "dev": "nodemon index.js"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "phamhiep2506 <phamhiep25062k@gmail.com>",
