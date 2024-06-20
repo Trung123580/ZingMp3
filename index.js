@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 });
 const allowedOrigins = [process.env.URL_CLIENT_1, process.env.URL_CLIENT_2];
 // ZingMp3Router
-const ZingMp3Router = require('../routers/api/ZingRouter');
+const ZingMp3Router = require('./routers/api/ZingRouter');
 app.use('/', cors({ origin: allowedOrigins }), ZingMp3Router);
 
 // Page Error
