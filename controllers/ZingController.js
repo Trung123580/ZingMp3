@@ -42,7 +42,6 @@ class ZingController {
       res.json(data);
     });
   }
-
   getArtist(req, res) {
     ZingMp3.getArtist(req.query.name).then((data) => {
       res.json(data);
