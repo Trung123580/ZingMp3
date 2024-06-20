@@ -13,7 +13,7 @@
     }
   ],
   "functions": {
-    "api/*": {
+    "routers/api/*": {
       "maxDuration": 60
     }
   }
